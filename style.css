@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('polices/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Eléments principaux de la page */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}                                                                           
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/****Header***/
+
+header{
+    background: white;
+    width: 100%;
+
+}
+
+nav #logo{
+    display: flex;
+    
+}
+ nav ul{
+     display: flex;
+     flex: 1 0 0rem;
+     justify-content: flex-end;
+     align-items: center;
+     list-style: none;
+ }
+
+ nav li {
+     padding: 10px;
+     margin: 5px;
+ }
+
+ /***photoPrincipale***/
+
+ #photo-header{
+    height: 500px;
+    background: url('Images/banniere_img.jpg') no-repeat fixed center;
+    width: 100%;
+    text-align: center;
+    
+    
+ }
+
+ #photo-header h1{
+     color: white;
+     font-size: 2.8em;
+     text-align: center;
+     margin: auto;
+     padding-top: 40px;
+     
+ }
+
+ #photo-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 180px;
+    
+ }
+
+ /***contenu***/
+
+ #contenu { 
+     height: 100px;
+     padding: 20px;
+ }
+
+ #contenu #texteIntro {
+     text-align: center; 
+ }
+
+ #contenu #texteIntro h2 {
+     font-weight: normal;
+     font-size: 1.2em;
+ }
+
+ /****continu icone****/
+
+#Icone {
+    
+    padding: 10px 0px 100px 0; 
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 10%;
+    text-align: center;  
+}
+
+
+#Icone img
+{
+    display: inline-block;
+    text-align: center;
+}
+
+#Icone h4
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+#Icone p
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    letter-spacing: -1.1px;
+    font-size: 1em;
+}
+
+aside
+{
+    flex: 1.2;
+    width: 300px;
+    text-align: center;
+    padding: 2px;
+}
+
+/**Retour Client**/
+
+.RetourClient{
+    height: 100px;
+    padding: 50px;
+}
+
+.RetourClient p{
+    text-align: center;
+}
+
+/***footer***/
+
+footer{
+    background-color: rgb(81, 25, 153);
+}
+
+#TextFooter{
+    color: white;
+    font-size: 1.2em;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer #icons {
+    
+    font-size: 2em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer #icons a{
+
+    padding: 0 80px;
+    color: white;
+}
+
+.contenu-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0 100px;
+}
+.contenu-footer a{
+    color: white;
+}
+
+#accesRapide, #Apropos, #adresse{
+    margin: 0 100px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#accesRapide h4, #Apropos h4, #adresse h4{
+   
+    color: white;
+}
+
